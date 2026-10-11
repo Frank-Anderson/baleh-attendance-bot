@@ -184,7 +184,6 @@ def try_answer_callback(callback_query_id, text=None, show_alert=False):
 def build_attendance_text(session):
     lines = [
        "ربات حضور غیاب نویسنده امید قاسمی",
-        "📋 حضور و غیاب کلاس",
         f"📅 تاریخ: {session['date']}",
         f"📍 محل: {UNIVERSITY_NAME}",
         "",
