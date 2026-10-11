@@ -3,6 +3,8 @@
 """
 Bale (بله) Attendance Bot
 =========================
+Author: Omid Ghasemi
+License : GPL-V3
 Location-based class attendance bot for a Bale (web.bale.ai) group.
 All user-facing text is Persian. Keeps the group clean by doing all
 verification in a private chat and only editing ONE pinned message
@@ -181,6 +183,7 @@ def try_answer_callback(callback_query_id, text=None, show_alert=False):
 
 def build_attendance_text(session):
     lines = [
+       "ربات حضور غیاب نویسنده امید قاسمی",
         "📋 حضور و غیاب کلاس",
         f"📅 تاریخ: {session['date']}",
         f"📍 محل: {UNIVERSITY_NAME}",
